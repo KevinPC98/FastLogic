@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">FastLogic</string>
+    <string name="nombre">Nombre</string>
+    <string name="ranking">Ranking</string>
+    <string name="jugar">Jugar</string>
+    <string name="facil">Facil</string>
+    <string name="medio">Medio</string>
+    <string name="dificil">Dificil</string>
+    <string name="puesto">Puesto</string>
+    <string name="score">Score</string>
+    <string name="puesto1">1.</string>
+    <string name="puesto2">2.</string>
+    <string name="puesto3">3.</string>
+    <string name="usuario">---</string>
+    <string name="btn1">1</string>
+    <string name="btn2">2</string>
+    <string name="btn3">3</string>
+    <string name="btn4">4</string>
+    <string name="btn5">5</string>
+    <string name="btn6">6</string>
+    <string name="btn7">7</string>
+    <string name="btn8">8</string>
+    <string name="btn9">9</string>
+    <string name="btn0">0</string>
+    <string name="btnx">X</string>
+    <string name="respuesta">Respuesta</string>
+    <string name="nombreJuego">Nombre :</string>
+    <string name="nivelJuego">Nivel :</string>
+    <string name="puntajeJuego">Puntaje :</string>
+    <string name="Tiempo">Tiempo :</string>
+    <string name="btnOk">Ok</string>
+    <string name="resultados">Resultados</string>
+    <string name="regresar_a_menu">Regresar a Menu</string>
+    <string name="ayuda">Ayuda</string>
+</resources>

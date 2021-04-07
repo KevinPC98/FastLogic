@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoinicio"
+    tools:context=".Main2Activity_Ranking">
+
+    <TextView
+        android:id="@+id/txttitulo"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:background="#855E0D0D"
+        android:paddingLeft="120dp"
+        android:paddingRight="10dp"
+        android:text="@string/ranking"
+        android:textColor="#FFFB89"
+        android:textSize="30sp"
+        android:paddingStart="120dp"
+        android:paddingEnd="10dp" />
+
+    <TextView
+        android:id="@+id/txtpuesto"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="204dp"
+        android:background="#855E0D0D"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="@string/puesto"
+        android:textColor="#FFFB89"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtpuesto1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="280dp"
+        android:text="@string/puesto1"
+        android:textColor="#FFFB89"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtpuesto2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txtpuesto1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/puesto2"
+        android:textColor="#FFFB89"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtpuesto3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txtpuesto2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginLeft="71dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="217dp"
+        android:text="@string/puesto3"
+        android:textColor="#FFFB89"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtnombre"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="204dp"
+        android:background="#855E0D0D"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/nombre"
+        android:textColor="#FFFB89"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtnombre1"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginRight="57dp"
+        android:layout_toStartOf="@+id/txtscore1"
+        android:layout_toLeftOf="@+id/txtscore1"
+        android:layout_toEndOf="@+id/txtpuesto1"
+        android:layout_toRightOf="@+id/txtpuesto1"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/usuario"
+        android:textColor="#FFFB89"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtnombre2"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txtnombre1"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginRight="57dp"
+        android:layout_toStartOf="@+id/txtscore2"
+        android:layout_toLeftOf="@+id/txtscore2"
+        android:layout_toEndOf="@+id/txtpuesto2"
+        android:layout_toRightOf="@+id/txtpuesto2"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/usuario"
+        android:textColor="#FFFB89"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtscore"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="202dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:background="#855E0D0D"
+        android:text="@string/score"
+        android:textColor="#FFFB89"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtscore1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginRight="60dp"
+        android:text="@string/usuario"
+        android:textColor="#FFFB89"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/txtscore2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txtscore1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:text="@string/usuario"
+        android:textColor="#FFFB89"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtnombre3"
+        android:layout_width="99dp"
+        android:layout_height="31dp"
+        android:layout_below="@+id/txtnombre2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginRight="57dp"
+        android:layout_marginBottom="224dp"
+        android:layout_toStartOf="@+id/txtscore3"
+        android:layout_toLeftOf="@+id/txtscore3"
+        android:layout_toEndOf="@+id/txtpuesto3"
+        android:layout_toRightOf="@+id/txtpuesto3"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/usuario"
+        android:textColor="#FFFB89"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtscore3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txtscore2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        android:layout_marginBottom="221dp"
+        android:text="@string/usuario"
+        android:textColor="#FFFB89"
+        android:textSize="20sp" />
+</RelativeLayout>
